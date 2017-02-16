@@ -49,10 +49,19 @@
   <ItemGroup>
     <Compile Include="main\classwork\lesson3\PrimitiveConvertor.cs" />
     <Compile Include="main\classwork\lesson4\CircleArea.cs" />
+    <Compile Include="main\classwork\lesson4\NumberIsBigger.cs" />
+    <Compile Include="main\classwork\lesson4\RightTriangle.cs" />
+    <Compile Include="main\menu\Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="main\classwork\lesson2\Class1.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="tests\classwork\lesson2\Class1Test.cs" />
+    <Compile Include="tests\classwork\lesson5\TestCaseWithPreconditions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -63,11 +72,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="main\homework\" />
-    <Folder Include="main\menu\" />
     <Folder Include="tests\classwork\lesson3\" />
-    <Folder Include="tests\classwork\lesson5\" />
     <Folder Include="tests\classwork\lesson6\" />
     <Folder Include="tests\homework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tests\resources\expected.txt" />
+    <Content Include="tests\resources\input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
