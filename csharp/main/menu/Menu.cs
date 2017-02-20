@@ -19,7 +19,7 @@ namespace csharp.main.menu
             int n = Convert.ToInt32(Console.ReadLine());
             if (n == 1) {
                 CircleArea circle = new CircleArea();
-                circle.CalculateBigger();
+                //circle.CalculateBigger();
                 }
            else if (n == 2) {
                 NumberIsBigger number = new NumberIsBigger();
@@ -28,7 +28,7 @@ namespace csharp.main.menu
            else if (n== 3)
             {
                 RightTriangle tr = new RightTriangle();
-                tr.Tringlecalculation();
+              //  tr.Tringlecalculation();
             }
             else
             {

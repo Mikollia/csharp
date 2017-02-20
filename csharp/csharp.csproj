@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="main\classwork\lesson 6\L6Askuser.cs" />
     <Compile Include="main\classwork\lesson3\PrimitiveConvertor.cs" />
     <Compile Include="main\classwork\lesson4\CircleArea.cs" />
     <Compile Include="main\classwork\lesson4\NumberIsBigger.cs" />
@@ -62,6 +63,7 @@
     </Compile>
     <Compile Include="tests\classwork\lesson2\Class1Test.cs" />
     <Compile Include="tests\classwork\lesson5\TestCaseWithPreconditions.cs" />
+    <Compile Include="tests\homework\Lesson5\MenuTestDDU.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -74,11 +76,10 @@
     <Folder Include="main\homework\" />
     <Folder Include="tests\classwork\lesson3\" />
     <Folder Include="tests\classwork\lesson6\" />
-    <Folder Include="tests\homework\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="tests\resources\expected.txt" />
-    <Content Include="tests\resources\input.txt" />
+    <Content Include="tests\homework\Lesson5\resources\expected.txt" />
+    <Content Include="tests\homework\Lesson5\resources\input.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
